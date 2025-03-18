@@ -1,0 +1,210 @@
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 1
+Enter your name: Virat
+Enter your password:
+Select account type:
+1. Savings (4% interest)
+2. Checking (No interest)
+Enter your choice: 1
+An initial deposit of 2000/- is required to open a savings account.
+Do you want to proceed with the initial deposit? (y/n): y
+Account created successfully! Your account number is 1003
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 2
+Enter your account number: 1003
+Enter your password:
+Login successful!
+
+1. View Balance
+2. Deposit
+3. Withdraw
+4. Logout
+Enter your choice: 2
+Enter the amount to deposit: 3000.00
+$3000.0 deposited successfully!
+
+1. View Balance
+2. Deposit
+3. Withdraw
+4. Logout
+Enter your choice: 1
+Your current balance is: 5000.0
+
+1. View Balance
+2. Deposit
+3. Withdraw
+4. Logout
+Enter your choice: 3
+Enter the amount to withdraw: 1000.00
+$1000.0 withdrawn successfully!
+
+1. View Balance
+2. Deposit
+3. Withdraw
+4. Logout
+Enter your choice: 4
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 3
+Admin Interface
+1. View all accounts
+2. View transaction history
+Enter your choice: 1
+   Account Number     Name        Password     Balance Account Type
+0            1001  vaibhav  Vaibhavvst@123  2339.71712      savings
+1            1002  vaibhav  Vaibhavvst@123  2080.00000      savings
+2            1003    Virat       Virat@123  4000.00000      savings
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 3
+Admin Interface
+1. View all accounts
+2. View transaction history
+Enter your choice: 2
+    Account Number Transaction Type       Amount                        Date
+0             1003          Deposit   2000.00000  2024-08-10 17:45:16.381745
+1             1003          Deposit  25000.80000  2024-08-10 17:53:41.042065
+2             1003       Withdrawal   5000.00000  2024-08-10 17:54:08.436767
+3             1001         Interest     80.00000  2024-08-10 17:55:55.490092
+4             1001         Interest     80.00000  2024-08-10 17:58:50.497948
+5             1001         Interest     80.00000  2024-08-10 18:00:54.448264
+6             1001         Interest     83.20000  2024-08-10 18:05:20.951271
+7             1001         Interest     86.52800  2024-08-10 18:10:22.996400
+8             1001         Interest     89.98912  2024-08-10 18:14:00.030440
+9             1002         Interest     80.00000  2024-08-10 18:14:00.063486
+10            1003         Interest    880.03200  2024-08-10 18:14:00.106232
+11            1003          Deposit   2000.00000  2024-08-12 15:32:57.630170
+12            1003          Deposit   3000.00000  2024-08-12 15:33:44.968525
+13            1003       Withdrawal   1000.00000  2024-08-12 15:34:01.739667
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 4
+Interest of 93.58868480000001 added to account 1001. New balance: 2433.3058048000003
+Interest of 83.2 added to account 1002. New balance: 2163.2
+Interest of 160.0 added to account 1003. New balance: 4160.0
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 6
+
+Report Options:
+1. Account Balances
+2. Transaction History
+3. Account Summary
+Enter your choice: 1
+
+Account Balances:
+   Account Number     Name      Balance
+0            1001  vaibhav  2433.305805
+1            1002  vaibhav  2163.200000
+2            1003    Virat  4160.000000
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 6
+
+Report Options:
+1. Account Balances
+2. Transaction History
+3. Account Summary
+Enter your choice: 2
+
+Transaction History:
+    Account Number Transaction Type        Amount                        Date
+0             1003          Deposit   2000.000000  2024-08-10 17:45:16.381745
+1             1003          Deposit  25000.800000  2024-08-10 17:53:41.042065
+2             1003       Withdrawal   5000.000000  2024-08-10 17:54:08.436767
+3             1001         Interest     80.000000  2024-08-10 17:55:55.490092
+4             1001         Interest     80.000000  2024-08-10 17:58:50.497948
+5             1001         Interest     80.000000  2024-08-10 18:00:54.448264
+6             1001         Interest     83.200000  2024-08-10 18:05:20.951271
+7             1001         Interest     86.528000  2024-08-10 18:10:22.996400
+8             1001         Interest     89.989120  2024-08-10 18:14:00.030440
+9             1002         Interest     80.000000  2024-08-10 18:14:00.063486
+10            1003         Interest    880.032000  2024-08-10 18:14:00.106232
+11            1003          Deposit   2000.000000  2024-08-12 15:32:57.630170
+12            1003          Deposit   3000.000000  2024-08-12 15:33:44.968525
+13            1003       Withdrawal   1000.000000  2024-08-12 15:34:01.739667
+14            1001         Interest     93.588685  2024-08-12 15:35:13.513595
+15            1002         Interest     83.200000  2024-08-12 15:35:13.554650
+16            1003         Interest    160.000000  2024-08-12 15:35:13.581244
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 6
+
+Report Options:
+1. Account Balances
+2. Transaction History
+3. Account Summary
+Enter your choice: 3
+
+Account Summary:
+              total_balance  num_accounts
+Account Type
+savings         8756.505805             3
+
+Welcome to the Bank System
+1. Sign up (Create Account)
+2. Log in
+3. Admin
+4. Interest (Admin Only)
+5. Delete Account
+6. Generate Reports
+7. Exit
+Enter your choice: 7
+PS C:\Users\vaibh\GRRAS\Bank Account System>
