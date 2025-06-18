@@ -1,44 +1,134 @@
-📌 Project Overview
-The Bank Management System is a web-based application developed using Flask (a Python web framework) that provides users with a seamless platform to manage their bank accounts. 
+🏦 Bank Account Management System
+This is a command-line-based bank account management system built using Python. It allows users to create and manage their bank accounts, perform transactions, and generate detailed reports. The system also integrates MySQL for database operations, uses CSV files for backup, and provides visual analytics using Matplotlib and Seaborn.
+
+It is also a web-based application developed using Flask (a Python web framework) that provides users with a seamless platform to manage their bank accounts. 
 This system is designed to simulate essential banking operations like account creation, login authentication, 
 and fund management while offering a user-friendly interface with a modern UI using HTML, CSS, and Boxicons.
 
-🛠️ Features of the System
-The project is divided into three main user categories:
+📌 Features
+🔐 User Account Features
+Sign Up: Create a new account (Savings or Checking).
 
-General User (Customers)
+Password Validation: Ensures strong password (at least 1 uppercase, 1 lowercase, 1 digit, 1 special character, and minimum 8 characters).
 
-Create a new account with a choice between Savings or Checking accounts.
-Login securely using account credentials.
-Perform secure banking operations like deposits, withdrawals, and balance inquiries.
-Update account details if necessary.
-View transaction history.
-Admin
+Login: Secure access using account number and password.
 
-Access an Admin Dashboard to view and manage all accounts.
-Monitor user transactions.
-Generate analytical reports for financial insights.
-System Features
+Deposit & Withdraw: Perform basic banking operations.
 
-Responsive UI with a glassmorphic design.
-Secure login using password authentication.
-Integrated error handling for a smooth user experience.
-CRUD (Create, Read, Update, Delete) operations for accounts.
-Data stored using CSV files for simplicity.
+Balance Check: View the current account balance.
 
-🧑‍💻 Technology Stack
-Frontend: HTML5, CSS3, Boxicons (Icons)
-Backend: Python, Flask
-Database: CSV (for storing accounts and transaction data)
-Styling: Custom CSS with modern glassmorphic design
+🏦 Admin Features
+View All Accounts: Displays complete account details.
 
-🚀 How It Works
-Landing Page: Users are welcomed with options to Sign Up, Login, or navigate to the Admin Dashboard.
-Signup Page: Users can register a new account with their personal information and password.
-Login Page: Users authenticate with their account number and password.
-Dashboard: Users can view their account details, make transactions (deposit/withdraw), and view transaction history.
-Admin Panel: Admins have access to a complete view of user accounts and transactions.
+Transaction History: View full transaction records.
 
-⚡ Conclusion
-This Bank Management System is an excellent project for beginners to intermediate developers to apply their knowledge of Flask and web development concepts. 
-It also demonstrates practical applications of database management and user authentication systems. With a beautiful and responsive interface, this project is both functional and aesthetically pleasing.
+Interest Application: Automatically apply 4% interest to all savings accounts.
+
+Delete Account: Remove a user’s account and its transactions from both CSV and MySQL.
+
+📊 Reporting & Analytics
+Generate Reports:
+
+Account balances
+
+Transaction summaries
+
+Aggregated account type summaries
+
+Data Analytics & Visualizations:
+
+Monthly transaction trends
+
+Deposits vs Withdrawals vs Interest
+
+Account type distribution
+
+Average balance by account type
+
+High-value transaction alerts (above ₹50,000)
+
+User-specific Dashboard: Personalized visual reports for individual users
+
+🗃️ Data Storage
+This system uses a hybrid approach:
+
+CSV Files:
+
+bank_accounts.csv: Stores user details.
+
+transactions.csv: Stores transaction records.
+
+MySQL Database (bank_system):
+
+accounts table
+
+transactions table
+
+🧰 Technologies Used
+Python Libraries:
+
+pandas – data management
+
+pymysql – MySQL connection
+
+matplotlib, seaborn – visualizations
+
+getpass – password input
+
+datetime – timestamping transactions
+
+MySQL – backend relational database
+
+📋 Functional Flow
+Start the App: Run Main.py to start the menu-driven system.
+
+Choose Action:
+
+Sign up, Log in, Admin panel, etc.
+
+Perform Transactions: Deposit, Withdraw, Balance inquiry.
+
+Data Logging:
+
+Every action updates both CSV and MySQL.
+
+Analytics & Reports:
+
+View detailed summaries and plots.
+
+🌐 Web Interface (Flask + HTML/CSS)
+The project includes a user-friendly web interface:
+
+Flask Backend: Handles routing, logic, and database interaction
+
+HTML Forms: For login, signup, deposits, withdrawals, and report access
+
+CSS Styling: Clean, responsive UI with styled buttons, inputs, and tables
+
+Chart Rendering: Plots are generated using Matplotlib and rendered as images
+
+📈 Analytics Visualizations
+Monthly Transaction Trend: Line chart showing frequency.
+
+Transaction Type Summary: Bar chart for deposit, withdrawal, interest.
+
+Account Type Pie Chart: Visual distribution of savings vs checking.
+
+Average Balance Bar Chart: Average funds by account type.
+
+High-Value Alerts: List of transactions above ₹50,000.
+
+✅ Conclusion
+This Bank Account Management System provides a complete and practical demonstration of how core banking operations can be implemented using Python, Flask, MySQL, and Data Visualization tools. It offers both command-line and web-based interfaces, making it a versatile learning and showcase project.
+
+Whether you're a student learning backend development, a data analyst interested in financial datasets, or a developer exploring full-stack applications, this project integrates:
+
+Database operations
+
+Secure user authentication
+
+Data storage and backups
+
+Visual reports and dashboards
+
+Clean and responsive UI with Flask + HTML/CSS
